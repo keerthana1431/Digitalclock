@@ -1,0 +1,42 @@
+*{
+    padding:0px;
+    margin: 0px;
+}
+body{
+    background-size: 100% 100vh;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#container{
+    width: 500px;
+    height: 400px;
+    display: flex;
+    background-color: rgba(216, 205, 205, 0.312);
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px black;
+}
+#Time{
+    color: red;
+    font-size: 8vw;
+    text-shadow: 5px 5px 5px black;
+}
+#Date{
+    color: white;
+    font-size: 4vw;
+    text-shadow: 5px 5px 5px black;
+}
+#Day{
+    color:white;
+    font-size: 4vw;
+    text-shadow: 5px 5px 5px black;
+}
+#Sec{
+    color:lawngreen;
+    font-size: 30vw;
+    text-shadow: 5px 5px 5px black;
+}
